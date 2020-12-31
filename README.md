@@ -1,1 +1,2 @@
-this is a project of building a google webpage from scratch. some HTML and CSS skills will be used. 
+This is a project of building a google webpage from scratch. 
+Some HTML and CSS skills will be used. 
