@@ -1,0 +1,72 @@
+.flex {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.center {
+    margin: auto;
+}
+
+.google {
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+input {
+    height: 50px;
+    width:500px;
+    padding: 0px 20px;
+    border-width: 1pt;
+    border-style: solid;
+    border-color: rgba(201,202,201,0.973);
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: auto;
+}
+
+input:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28)
+}
+
+.magbutton {
+    
+}
+
+
+
+ .container {
+     position: relative;
+     top: 100px;
+ }
+
+ ul {
+     list-style-type: none;
+     background-color: ;
+     margin: 0;
+     padding: 0;
+     floa
+ }
+
+ .signin {
+     background-color: blue;
+     font-size: 15px;
+     
+
+ }
+
+
+ .spore {
+     background-color: lightgrey;
+     
+ }
+ 
+ .footer {
+     position: relative;
+     
+ }

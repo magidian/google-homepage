@@ -1,94 +1,53 @@
 
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css"
+    <title></title>
 </head>  
 
+<div class="flex">
+<body>
+<nav class="navicon">
 <header>
-    <ul>
-        <li><a href="https://www.gmail.com">Gmail</a></li>
-        <li><a href="https://www.google.com/imghp?hl=en">Images</a></li>
-        <li><a href="#">Google Apps</a></li>
-        <li><button type="button" class="signin"><a href="https://accounts.google.com">Sign in</a></button></li>
+    <ul class="nav_list">
+        <li class="nav_item"><a href="https://www.gmail.com">Gmail</a></li>
+        <li class="nav_item"><a href="https://www.google.com/imghp?hl=en">Images</a></li>
+        <li class="nav_item"><a href="#">Google Apps</a></li>
+        <li class="nav_item"><button type="button" class="signin"><a href="https://accounts.google.com">Sign in</a></button></li>
     </ul>
+</nav>
 </header>
 
-<body>
-    <a href="#"><img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo" class="logo"></a>
-    <input type="text" class="input" placeholder="Search">
-    <button type="search" class="search">Google Search</button>
-    <button type="lucky" class="lucky"><a href="https://www.google.com/doodles">I'm Feeling Lucky</a></button>
-    
+<main class="center">
+    <a href="#"><img class="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo"></a>
+</main>
 
+<form>
+    <input type="text" >
+    <button type="button" class="micbutton"></button>
+</form>
+
+<ul class="center">
+    <li><button class="searchbtn">Google Search</button></li>
+    <li><button class="searchbtn"><a href="https://www.google.com/doodles">I'm Feeling Lucky</a></button></li>
+</ul>
 
 <footer>
-    <form>
-        <label for="name" class="spore">Singapore</label>
-    </form>
-    <a href="https://www.ads.google.com" class="footer">Advertising</a>
-    <a href="https://www.google.com/intl/en_sg/business" class="footer">Business</a>
-    <a href="https://about.google/?utm_source=google-SG&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="footer">About</a>
-    <a href="https://www.google.com/search/howsearchworks/?fg=1" class="footer">How Search works</a>
-    <a href="hhttps://policies.google.com/privacy?hl=en-SG&fg=1" class="footer">Privacy</a>
-    <a href="https://policies.google.com/terms?hl=en-SG&fg=1" class="footer">Terms</a>
-    <a href="" class="footer">Settings</a>
+    <ul class="footerleft">
+        <li><a href="https://www.ads.google.com" class="footer">Advertising</a></li>
+        <li><a href="https://www.google.com/intl/en_sg/business" class="footer">Business</a></li>
+        <li><a href="https://about.google/?utm_source=google-SG&utm_medium=referral&utm_campaign=hp-footer&fg=1" class="footer">About</a></li>
+        <li><a href="https://www.google.com/search/howsearchworks/?fg=1" class="footer">How Search works</a></li>
+    </ul>
+        <ul class="footerright">
+        <li><a href="hhttps://policies.google.com/privacy?hl=en-SG&fg=1" class="footer">Privacy</a></li>
+        <li><a href="https://policies.google.com/terms?hl=en-SG&fg=1" class="footer">Terms</a></li>
+        <li><a href="" class="footer">Settings</a></li>
+    </ul>
 </footer>
+</div>
+
 </body>
 </html>
-
-<style>
-
-    .logo {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-    }
-        
-    .input {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      border-radius: 25px;
-      width: 500px;
-      height: 50px;
-
-    }
-
-    .container {
-        position: relative;
-        top: 100px;
-    }
-
-    ul {
-        list-style-type: none;
-        background-color: ;
-        margin: 0;
-        padding: 0;
-        floa
-    }
-
-    .signin {
-        background-color: blue;
-        font-size: 15px;
-        
-
-    }
-
-
-    .spore {
-        background-color: lightgrey;
-        
-    }
-    
-    .footer {
-        position: relative;
-        
-    }
-</style>
-
-<div class="container">
-    <div class="logo"></div>
-    <div class="input"></div>
-    <div class="search"></div>
-    <div class="lucky"></div>
-</div>
